@@ -1,0 +1,46 @@
+.formPhonebook {
+  width: 400px;
+  padding: 80px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 14px 10px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  background-image: url('https://img4.goodfon.ru/wallpaper/nbig/7/40/girls-frontline-devushka-anime-belyi-fon-forma.jpg');
+  background-size: cover;
+  background-position: inherit;
+}
+.label {
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+.inputForm {
+  margin: 10px auto;
+  width: 250px;
+  height: 30px;
+  border: 3px solid;
+  padding-left: 10px;
+  border-radius: 10px;
+  display: block;
+  font-size: 24px;
+  background: transparent;
+}
+.inputForm:focus{
+    background: white;
+} 
+.btnAddContact {
+  width: 150px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgba(247, 147, 97);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.btnAddContact:hover {
+  background-color: rgba(255, 69, 0, 0.6);
+  color: black;
+  box-shadow: 10px 8px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}

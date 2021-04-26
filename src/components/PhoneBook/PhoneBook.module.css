@@ -1,0 +1,46 @@
+.tablePrice {
+  border-collapse: collapse;
+  border-left: 3px solid #F79361;
+  border-right: 3px solid #F79361;
+  border-bottom: 3px solid #f7925f;
+  font-family: "Lucida Grande", sans-serif;
+  margin: 40px auto;
+ }
+.tablePrice caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.tablePrice td, .tablePrice th {
+  padding: 10px;
+}
+.tablePrice th {
+  text-align: left;
+  font-size: 18px;
+}
+
+.tablePrice tr:nth-child(odd) {
+  background: #E5E5E5;
+}
+.tablePrice td:last-of-type {
+  text-align: center;
+}
+.tablePrice button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #F79361;
+  box-shadow: 2px 2px 0 0 #a22800;
+  position: relative;
+}
+.tablePrice button:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
